@@ -66,7 +66,7 @@ public class test {
             // TODO: handle exception
             e.printStackTrace();
         }finally{
-            System.out.println("資料庫資料成功獲取！！");
+            System.out.println("資料庫資料成功獲取！");
         }
     }
 	}
