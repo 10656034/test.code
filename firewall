@@ -1,0 +1,6 @@
+#設定防火牆
+
+firewall-cmd--permanent --add-port=80/tcp #開80 port
+firewall-cmd--permanent --add-port=10050/tcp #開10050 port
+firewall-cmd--permanent --add-port=10051/tcp #開10051 port
+firewall-cmd--permanent --reload #重啟防火牆
